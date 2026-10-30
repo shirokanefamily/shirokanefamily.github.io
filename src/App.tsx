@@ -8,6 +8,10 @@ type Sister = {
   color: string
   accent: string
   avatar: string
+   socials: {
+    osu?: string
+    discord?: string
+  }
 }
 
 const sisters: Sister[] = [
@@ -18,7 +22,11 @@ const sisters: Sister[] = [
     bio: 'Former Sister, she is multimode player and strong at taiko. Her goal is get 7kpp at all mode but something bad happened so she decided to become a mapper, now she have 1 ranked beatmap at mania 6K',
     color: '#7dd3a8',
     accent: '#d8efff',
-    avatar: './assets/shoka.png'
+    avatar: './assets/shoka.png',
+     socials: { 
+    discord: 'https://discord.com/users/1093105047996465233',
+    osu: 'https://osu.ppy.sh/users/33461938',
+  }
   },
 
   {
@@ -28,7 +36,11 @@ const sisters: Sister[] = [
     bio: ' 1st brother, he`s a 4k mania player at 9th dan, average rice farmer but doesn`t actually play the game that much, touched std a bit and that`s it.',
     color: '#8dc8ed',
     accent: '#d8efff',
-    avatar: './assets/shizu.png'
+    avatar: './assets/shizu.png',
+    socials: {
+      discord: 'https://discord.com/users/993465312500527144',
+      osu: 'https://osu.ppy.sh/users/36781676',
+    }
   },
 
   {
@@ -38,7 +50,11 @@ const sisters: Sister[] = [
     bio: '2nd sister, she`s a decent standard player, also really good at FPS games, joined after Shizu Shirokane.',
     color: '#ef918c',
     accent: '#ffe0dd',
-    avatar: './assets/mita.jpg'
+    avatar: './assets/mita.jpg',
+    socials: {
+      discord: 'https://discord.com/users/1034103806536978453',
+      osu: 'https://osu.ppy.sh/users/33079130',
+    }
   },
 
   {
@@ -48,7 +64,11 @@ const sisters: Sister[] = [
     bio: 'The 3rd sister, slightly worse at std than Mita but still improving, played a little bit of other gamemodes, joined after Mita Shirokane.',
     color: '#8dc8ed',
     accent: '#d8efff',
-    avatar: './assets/yuuki.jpg'
+    avatar: './assets/yuuki.jpg',
+    socials: {
+      discord: 'https://discord.com/users/1053613020338728961',
+      osu: 'https://osu.ppy.sh/users/34605776',
+    }
   },
 
   {
@@ -58,7 +78,11 @@ const sisters: Sister[] = [
     bio:'The 4th brother, the absolute strongest mania player of the family with over 10kpp at both 4 and 7k. Joined after Yuuki Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
-    avatar: './assets/fuyu.png'
+    avatar: './assets/fuyu.png',
+    socials: {
+      discord: 'https://discord.com/users/874515432298659850',
+      osu: 'https://osu.ppy.sh/users/36639028',
+    }
   },
 
   {
@@ -68,7 +92,11 @@ const sisters: Sister[] = [
     bio:'The 5th sister, std main with a little bit of mania. Join after Fuyu Shirokane (wtf she won 1 year os)',
     color: '#b7a7e8',
     accent: '#e9e3ff',
-    avatar: './assets/ayoko.png'
+    avatar: './assets/ayoko.png',
+    socials: {
+      discord: 'https://discord.com/users/904895148700348437',
+      osu: 'https://osu.ppy.sh/users/36236118',
+    }
   },
 
   {
@@ -78,7 +106,11 @@ const sisters: Sister[] = [
     bio:' The 6th sister. The best std player in the family, spent some time playing mania and ctb too, peaked a while ago and slowly declining right now tho, joined after Ayoko Shirokane.',
     color: '#681993',
     accent: '#e5dffb',
-    avatar: './assets/sopia.png'
+    avatar: './assets/sopia.png',
+    socials: {
+      discord: 'https://discord.com/users/891082078383382548',
+      osu: 'https://osu.ppy.sh/users/35456979',
+    }
   },
 
   {
@@ -88,7 +120,11 @@ const sisters: Sister[] = [
     bio:'The 7th brother. A taiko main with over 8kpp, also playing tournaments. Decent skillset spread over other gamemodes too. Joined after Sopia Shirokane.',
     color: '#9589cf',
     accent: '#e5dffb',
-    avatar: './assets/kuru.png'
+    avatar: './assets/kuru.png',
+    socials: {
+      discord: 'https://discord.com/users/652844542881693710',
+      osu: 'https://osu.ppy.sh/users/29662189',
+    }
   },
 
   {
@@ -98,7 +134,11 @@ const sisters: Sister[] = [
     bio: '8th brother. A std player (yes thats it about him we dont even see him that often actually). Joined after Kuru Shirokane.',
     color: '#79b8e3',
     accent: '#dceeff',
-    avatar: './assets/ahiru.png'
+    avatar: './assets/ahiru.png',
+    socials: {
+      discord: 'https://discord.com/users/943810069051609200',
+      osu: 'https://osu.ppy.sh/users/38441565',
+    }
   },
 
   {
@@ -108,7 +148,11 @@ const sisters: Sister[] = [
     bio: '9th sister. Std main, with a little bit of mania and ctb. Joined after Ahiru Shirokane.',
     color: '#b7a7e8',
     accent: '#e9e3ff',
-    avatar: './assets/huna.png'
+    avatar: './assets/huna.png',
+    socials: {
+      discord: 'https://discord.com/users/392482017712930836',
+      osu: 'https://osu.ppy.sh/users/28032394',
+    } 
   },
 
   {
@@ -118,7 +162,11 @@ const sisters: Sister[] = [
     bio: '10th sister. Strong taiko main, also has around 1kpp on other modes (she beat an insane demon in gd and is going for her first extreme in gd btw). Joined after Huna Shirokane.',
     color: '#ffd9e5',
     accent: '#fff0ca',
-    avatar: './assets/mofu.png'
+    avatar: './assets/mofu.png',
+    socials: {
+      discord: 'https://discord.com/users/944864649407528972',
+      osu: 'https://osu.ppy.sh/users/28185479',
+    }
   },
 
   {
@@ -128,7 +176,11 @@ const sisters: Sister[] = [
     bio: '11th sister. Another 4K mania masher. Main rice and jack is best skill, join after Mofu Shirokane.',
     color: '#eebf73',
     accent: '#fff0ca',
-    avatar: './assets/izumi.png'
+    avatar: './assets/izumi.png',
+    socials: {
+      discord: 'https://discord.com/users/1021040111997165600',
+      osu: 'https://osu.ppy.sh/users/36741326',
+    }
   },
 
   {
@@ -138,7 +190,11 @@ const sisters: Sister[] = [
     bio: '11th sister. Best ctb player of the family (almost 3 digits) with some mania. Joined after Mofu Shirokane.',
     color: '#72bda5',
     accent: '#d9f3eb',
-    avatar: './assets/izuna.png'
+    avatar: './assets/izuna.png',
+    socials: {
+      discord: 'https://discord.com/users/977761484354490388',
+      osu: 'https://osu.ppy.sh/users/35689909',
+    }
   },
 
   {
@@ -148,7 +204,11 @@ const sisters: Sister[] = [
     bio: '12th sister. Decent std player, improving in mania. Joined after Izuna Shirokane.',
     color: '#7fc7d8',
     accent: '#d8f4fa',
-    avatar: './assets/sora.png'
+    avatar: './assets/sora.png',
+    socials: {
+      discord: 'https://discord.com/users/937726510796779560',
+      osu: 'https://osu.ppy.sh/users/33555707',
+    }
   },
 
 ]
@@ -343,9 +403,28 @@ function App() {
                 <div><dt>Call me</dt><dd>{selected.nickname}</dd></div>
               </dl>
               <div className="social-links">
-                <a  href="https://osu.ppy.sh/#id"> osu! <Icon name="link" /></a>
-                <a href="https://discord.com/#id_discord"> Discord <Icon name="link" /></a>
-              </div>
+  {selected.socials.discord && (
+    <a
+      href={selected.socials.discord}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Discord
+      <Icon name="link" />
+    </a>
+  )}
+
+  {selected.socials.osu && (
+    <a
+      href={selected.socials.osu}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Osu! Profile
+      <Icon name="link" />
+    </a>
+  )}
+</div>
             </div>
           </section>
         </div>
