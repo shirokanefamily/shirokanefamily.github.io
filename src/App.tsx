@@ -329,8 +329,6 @@ function App() {
         <Reveal>
           <nav className="nav" aria-label="Main navigation">
             <a href="#family">Our family</a>
-            <a href="#memories">Memories</a>
-            <a href="#letters">Letters</a>
             <a href="#about">About us</a>
           </nav>
         </Reveal>
